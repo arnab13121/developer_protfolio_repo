@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav ul{
+    display: flex;
+align-items: center;
+}
+.btn_primary{
+    height: 55px;
+    border-radius: 5px;
+    background-color:rgb(233, 78, 21);
+    color: beige;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 10px 25px;
+    margin: 25px;
+
+
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+
+}
+.nav_tittle{
+    font-weight: 800;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.text_primary{
+    color: rgb(233, 78, 21);
+}
+.banner{
+
+    display: flex;
+    align-items: center;
+    margin: 0 400px;
+}
+.banner_subtittle{
+    font-size: 500;
+    font-size: 40px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+.banner_description{
+    color:aliceblue;
+    font-size: 18;
+    margin-bottom: 30px;
+}
+.img{
+    margin-left: 300px;
+}
+.header{
+    background-color: rgb(255, 237, 196);
+  
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 450px 550px;
+
+
+
+}
+/* main......... */
+
+main{
+     max-width: 1140px; 
+     margin: 0 auto; 
+}
+
+/* ........abour..... */
+
+.about{
+    margin-top: 130px;
+    background-color: bisque;
+    padding: 130px 150px;
+    border-radius: 5px;
+    font-weight: 700;
+
+}
+
+.section_tittle{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+
+}
+
+.about_description{
+
+    color: blueviolet;
+    font-size: 18;
+    margin-bottom: 20px;
+
+}
+.about_info_container{
+    display: flex;
+    justify-content: space-around;
+}
+.about_info_tittle{
+
+    font-size: 20px;
+    color: bisque;
+}
+.about_info_tittle{
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+
+}
